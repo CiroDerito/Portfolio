@@ -48,7 +48,7 @@ const Home: React.FC = () => {
   {/* Image */}
   <div className="md:w-1/2 flex justify-center mt-2 md:mt-0">
     <Image 
-      src="/profile.jpg"
+      src="/Profile.jpg"
       alt="CiroDerito"
       width={600}
       height={600}
