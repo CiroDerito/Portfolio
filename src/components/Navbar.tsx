@@ -18,7 +18,9 @@ const Navbar: React.FC = () => {
           href="#"
           className="text-3xl font-bold text-blue-400 hover:text-blue-500 transition duration-300 "
         >
-            <Image src="/icon1.png" alt="Home" className="h-16"/>
+            <Image src="/Icon1.png" alt="Home" className="h-16"
+            width={120} height={10}
+            layout="intrinsic"/>
         </a>
 
         {/* Desktop Menu */}

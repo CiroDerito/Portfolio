@@ -50,6 +50,8 @@ const Home: React.FC = () => {
     <Image 
       src="/profile.jpg"
       alt="CiroDerito"
+      width={600}
+      height={600}
       className="rounded-full shadow-lg max-w-xs md:max-w-sm opacity-70"
     />
   </div>
@@ -148,6 +150,9 @@ const Home: React.FC = () => {
                   <Image 
                     src="/Ecommerce.jpeg"
                     alt="Proyecto 1"
+                    
+                    width={600}
+                    height={600}
                     className="w-full h-80 md:h-96 "
                   />
                   <div className="p-6 flex flex-col justify-between">
@@ -169,6 +174,9 @@ const Home: React.FC = () => {
                   <Image 
                     src="/Project2.jpeg"
                     alt="Proyecto 2"
+                    
+                    width={600}
+                    height={500}
                     className="w-full h-80 md:h-96 object-cover"
                   />
                   <div className="p-6 flex flex-col justify-between">
@@ -183,13 +191,15 @@ const Home: React.FC = () => {
               {/* Project 3 */}
               <div
                 data-aos="fade-up"
-                data-aos-delay="400"
-                className="w-full max-w-6xl flex flex-col md:flex-row items-center bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+                data-aos-delay="400"                className="w-full max-w-6xl flex flex-col md:flex-row items-center bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
               >
                 <a href="https://github.com/CiroDerito/barberApiRESTfull" className="w-full flex flex-col md:flex-row" target="blank">
                   <Image 
                     src="/Project3.jpeg"
                     alt="Proyecto 3"
+                    
+                    width={600}
+                    height={600}
                     className="w-full h-80 md:h-96 object-cover"
                   />
                   <div className="p-6 flex flex-col justify-between">
@@ -211,6 +221,9 @@ const Home: React.FC = () => {
                   <Image 
                     src="/Project4.jpeg"
                     alt="Proyecto 4"
+                    
+                    width={600}
+                    height={600}
                     className="w-full h-80 md:h-96 object-cover"
                   />
                   <div className="p-6 flex flex-col justify-between">
