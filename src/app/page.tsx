@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       alt="CiroDerito"
       width={600}
       height={600}
-      className="rounded-full shadow-lg max-w-xs md:max-w-sm opacity-70"
+      className="rounded-full shadow-lg max-w-xs md:max-w-sm"
     />
   </div>
 </section>
